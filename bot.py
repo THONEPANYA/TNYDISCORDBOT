@@ -4,7 +4,7 @@ import yt_dlp as youtube_dl
 import os
 
 # ใช้โทเคนที่ให้มา
-TOKEN = 'MTA5NDc4MDIxOTkwMDA0MzM2NQ.GbCtX9.3xkRpI9gKDFlklSlGUWWgrT7KKaeYCtGmymQqc'
+TOKEN = ''
 
 # ตั้งค่าตำแหน่งของ ffmpeg
 ffmpeg_path = "C:\\PATH_Programs\\ffmpeg.exe"
