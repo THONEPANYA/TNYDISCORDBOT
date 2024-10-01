@@ -4,7 +4,7 @@ import yt_dlp as youtube_dl
 import os
 
 # ใช้โทเคนที่ให้มา
-TOKEN = ''
+TOKEN = 'cc35f89ccdcd569690065b3876c3ea130402993b5ac05ddcc23ead71bc54ce97'
 
 # ตั้งค่าตำแหน่งของ ffmpeg
 ffmpeg_path = "C:\\PATH_Programs\\ffmpeg.exe"
@@ -28,6 +28,11 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 @bot.event
 async def on_ready():
     print(f'Bot is ready. Logged in as {bot.user}')
+
+@bot.command(name='clear')
+async def remove(messang, clear):
+    if ctx.remove.messang:
+        await ctx.sand("Remove Messang Compete!")
 
 @bot.command(name='play')
 async def play(ctx, url: str):
